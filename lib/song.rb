@@ -10,14 +10,6 @@ class Song
         @@all << self
     end
 
-    def songs
-
-    end
-
-    def genres
-
-    end
-
     def self.all
         @@all
     end
