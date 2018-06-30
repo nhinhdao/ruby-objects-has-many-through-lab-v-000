@@ -14,7 +14,7 @@ class Artist
     end
 
     def songs
-        songs.map {|i| i.artist == self}
+        @@all.map {|i| i.artist == self}
     end
 
     def genres
